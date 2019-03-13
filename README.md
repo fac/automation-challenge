@@ -34,14 +34,14 @@ The FreeAgent login page may be found at the following URI: [https://login.sandb
 Please answer the following questions directly in this README markdown file to include with your submission.
 
   1. How long did you spend on the technical test? 
-  1. What would you add to your solution and/or what improvements would you make if you had more time?
-  1. What to you, constitutes a good approach to automation?
-  1. Please describe yourself using JSON.
+  2. What would you add to your solution and/or what improvements would you make if you had more time?
+  3. What to you, constitutes a good approach to automation?
+  4. Finally, your name and the role you're applying for please?
 
 
 ## Timescales
 
-Excluding any setup, we don’t expect you to have to dedicate more than an hour or so to this. We don’t want this to take too much of your time. If you find yourself spending too much time on this please let us know.
+Excluding any setup, we don’t expect you to have to dedicate more than an hour or so to this. We don’t want this to take too much of your time. If you think it’s going to due to other commitments, please let us know.
 
 ## Submission
 
@@ -50,8 +50,8 @@ We would prefer you to deliver your solution as a **zip** file. If that presents
 ## Instructions
 
   1. Please clone/download this repository as you will be using it as the skeleton for your solution.
-  1. Follow the setup instructions below for your respective environment as required. Please note that this skeleton project supports only MacOS and Windows and will likely require alterations for any other environment.
-  1. Now download an appropriate Webdriver following the setup instructions below. You will then need to point to the appropriate driver in the `./features/support/env.rb` file.
+  1. Follow the [setup instructions](#setup) below for your respective environment as required. Please note that this skeleton project supports only MacOS and Windows and will likely require alterations for any other environment.
+  1. Now download an appropriate Webdriver following the [setup instructions](#webdriver) below. You will then need to point to the appropriate driver in the `./features/support/env.rb` file.
   1. To run your scenario tests simply run `cucumber` or `bundle exec cucumber` from within the project directory in your terminal/command prompt.
 
 ## Setup
@@ -65,11 +65,11 @@ We would prefer you to deliver your solution as a **zip** file. If that presents
 
 ### Windows
 
-  1. Install Ruby using the Windows Ruby Installer: [http://rubyinstaller.org/](http://rubyinstaller.org/). Grab v2.6.1 for your specific architecture, including the Devkit. 
+  1. Install Ruby using the Windows Ruby Installer: [http://rubyinstaller.org/](http://rubyinstaller.org/). Grab v2.6.1+ for your specific architecture, including the Devkit. 
   1. During the install choose to include all packages. Install in a directory that does not contain spaces in its path (such as `C:\Ruby`, but not `C:\Program Files\Ruby`). Enable the option to run `ridk install` during the final step. Press [Enter] in the command prompt.
   1. Open your command prompt and run: `ridk enable`.
   1. Then run `gem install bundler`.
-  1. Navigate to the location of this project in your terminal and run `bundle install`.
+  1. Navigate to the location of this project in the command prompt and run `bundle install`.
 
 ### Webdriver
 
