@@ -84,4 +84,9 @@ We would prefer you to deliver your solution as a **zip** file. If that presents
 
   On MacOS, if you have a previous system version of Ruby which is causing issues, you may resolve this by using things like [chruby](https://github.com/postmodern/chruby) and [ruby-install](https://github.com/postmodern/ruby-install#readme). Or, after running `brew install ruby`, run the following line to edit your bash profile (changing as you need for different shell profiles): `echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile`
 
+## Links and resources
+
+  * Ruby Selenium bindings documentation: [https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings](https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings)
+  * Cucumber documentation: [https://docs.cucumber.io/](https://docs.cucumber.io/)
+
 #### Thank you for your time. We look forward to receiving your submission!
